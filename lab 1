@@ -6,7 +6,31 @@ namespace HelloWorld
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World");    
+        String waffles = "text";
+     int food;
+        long tacos = 2000000000L;
+        food = 2;
+      float strawberry = 2.5F;
+        float blueberry = 2e5F;
+        double gratefruit = 19.99D;
+        int burger = 2 + 2;
+        int hamburger = burger + 6;
+        int cheeseburger = hamburger + hamburger;
+        int carrots = burger - burger;
+            int tomatos = burger * burger;
+                int corn = burger / burger;
+        int cucumbers = burger % burger;
+        int candy = 3;
+        
+        
+        Console.WriteLine("my string value is " + waffles);
+      Console.WriteLine("my int value is " + food);
+        Console.WriteLine("Hello World");
+        Console.WriteLine("my long value is " + tacos);
+        Console.WriteLine("my float value is " + strawberry + " and " + blueberry);
+        Console.WriteLine("my double value is " + gratefruit);
+        Console.WriteLine("this int is 2+2 which is " + burger + ", then another + 6 is " + hamburger + ".  If you add that number again, you get " + cheeseburger + ".");
+        Console.WriteLine("4 - 4 gets " + carrots + ". 4 * 4 gets " + tomatos + ". 4 / 4 gets " + corn + ". 4 % 4 gets " + cucumbers + ".");
     }
   }
 }
