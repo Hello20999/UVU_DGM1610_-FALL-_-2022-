@@ -1,0 +1,18 @@
+public class ClassExample 
+{
+    
+}
+
+public class ClassWithVariables
+{
+    public int number =2;
+    public string userName = "hello2099";
+}
+
+public class ClassWithFunctions
+{
+    public void RunFuction()
+    {
+        Console.WriteLine("oof");
+    }
+}
